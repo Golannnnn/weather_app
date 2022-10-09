@@ -64,7 +64,6 @@ const displayData = async (city) => {
       humidity,
     } = json.main;
     const cloud = json.weather[0].description;
-    console.log(json.weather[0].description);
     cityEl.textContent = `${name}, ${country}`;
 
     switch (cloud) {
