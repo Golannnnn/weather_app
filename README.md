@@ -7,7 +7,7 @@ Displaying the weather using the OpenWeatherMap API
 - OpenWeatherAPI
 - async/await
 
-### [Live version](http://golannnnn.github.io/restaurant/)
+### [Live version](http://golannnnn.github.io/weather_app/)
 
 ### Font
 - [Montserrat Alternates](https://fonts.google.com/specimen/Montserrat+Alternates?query=montserrat)
