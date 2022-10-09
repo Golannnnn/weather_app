@@ -7,6 +7,34 @@
     <title>Weather app</title>
 </head>
 <body>
+    <main>
+        <form novalidate>
+            <div class="input-wrapper">
+                <input type="text" name="input" id="input" placeholder="Enter a city">
+                <input type="submit" name="submit" id="submit" value="Search">
+            </div>
+            <span><p></p></span>
+        </form>
+        <section>
+            <div class="cloud-wrapper">
+                <img src="" alt=""><h2 class="cloud"></h2>
+            </div>
+            <h1 class="city-name"></h1>
+            <div class="temp-wrapper">
+                <h2 class="temp"></h2><p></p>
+            </div>
+            <div class="feels-like-wrapper">
+                <h3></h3> <h3 class="feels-like"></h3><p></p>
+            </div>
+            <div class="humidity-wrapper">
+                <h3></h3> <h3 class="humidity"></h3><p></p>
+            </div>
+            <div class="button-wrapper">
+                <button class="c">°C</button><button class="f">°F</button>
+            </div>
+            
+        </section>
+    </main>
     <script src="bundle.js"></script>
 </body>
 </html>
